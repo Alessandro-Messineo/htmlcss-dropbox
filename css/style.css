@@ -77,3 +77,63 @@ header a{
 
 
 /* Stile footer */
+footer{
+    background-color: black;
+   
+}
+
+.container-address{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-select{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.address{
+    width: 20%;
+    margin-top: 70px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.address p{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.address li{
+    padding: 10px 0;
+}
+
+.separatore{
+    width: 10%;
+    border: 1px solid gray;
+    margin-top: 100px;
+}
+
+.container-select i{
+    color: white;
+}
+
+select{
+    margin: 50px 0;
+    background-color: black;
+    color: white;
+    border: none;
+}
