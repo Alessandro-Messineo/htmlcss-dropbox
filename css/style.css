@@ -93,17 +93,39 @@ header a{
 .vertical-card{
     display: flex;
     gap: 20px;
-    margin-top: 50px;
+    
+}
+
+.horizontal-card{
+    display: flex;
+    gap: 20px;
+    width: 97%;
+    margin: 0 auto;
 }
 
 .plane-card{
     border: solid 2px rgb(194, 190, 190);
     width: 100%;
+    margin-top: 50px;
 }
 
 .text-card{
     width: 90%;
     margin: 0px auto;
+    
+}
+
+.left-text-card{
+    width: 70%;
+}
+
+.right-text-card{
+    width: 30%;
+}
+
+.left-text-card span>p{
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .title-card{
