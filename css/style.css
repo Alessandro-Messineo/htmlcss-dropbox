@@ -16,7 +16,6 @@ body {
 .container-jumbotron{
     width: 80%;
     margin: 0px auto;
-
 }
 
 .header-fixed{
@@ -150,14 +149,18 @@ header a{
 
 .img-main{
     width: 60%;
-    background-color: orange;
-    
 }
 
 .text-main{
     width: 40%;
-    background-color: palegreen;
-    
+}
+
+.button-partner {
+  font-size: 18px;
+  padding: 12px 0;
+  width: 40%;
+  background-color: white;
+  margin-top: 20px;
 }
 
 .row {
@@ -167,9 +170,12 @@ header a{
 }
 .operation-card {
     width: calc(100%/3);
-    background-color: gold;
-    height: 500px;
-    border: solid 1px black;
+    margin-bottom: 40px;
+}
+
+.section-end-main{
+    margin-top: 30px;
+    margin-bottom: 150px;
 }
 
 .operation-card img{
