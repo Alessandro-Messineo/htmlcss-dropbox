@@ -10,6 +10,13 @@ body {
     
 }
 
+.button {
+  font-size: 18px;
+  padding: 12px 24px;
+  text-decoration: none;
+  width: 100%;
+}
+
 /* Stile header*/
 .container-jumbotron{
     width: 80%;
@@ -74,6 +81,7 @@ header a{
 
 
 /* Stile main */
+
 .container-main{
     width: 70%;
     margin: 0px auto;
@@ -81,28 +89,29 @@ header a{
 
 .vertical-card{
     height: 350px;
-    background-color: red;
     display: flex;
     gap: 20px;
 }
 
 .plane-card{
     border: solid 1px black;
-    height: 300px;
     width: 100%;
 }
 
 .text-card{
-    height: 300px;
-    background-color: aqua;
-    width: 100%;
+    width: 90%;
+    margin: 0px auto;
 }
 
 .title-card{
     border: solid 1px black;
-    height: 50px;
-    background-color: blueviolet;
     text-align: center;
+    vertical-align: middle;
+    padding: 15px 0;
+}
+
+.ul-style-none{
+    list-style-type: none;
 }
 
 .main-banner{
@@ -142,6 +151,10 @@ header a{
 .operation-card img{
     width: 100%;
 }
+
+main h1{
+    font-size: 45px;
+}
 /* Stile footer */
 footer{
     background-color: black;
@@ -172,7 +185,7 @@ footer a{
     text-decoration: none;
 }
 
-ul {
+footer ul {
     list-style-type: none;
 }
 
