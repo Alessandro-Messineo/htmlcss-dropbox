@@ -32,7 +32,25 @@ body {
     align-items: center;
 }
 
-header a{
+.button-jt {
+  font-size: 16px;
+  padding: 12px 10px;
+  width: 60%;
+  background-color: blue;
+  color: white;
+  border: none;
+  margin: 40px;
+}
+
+.button-header {
+  font-size: 15px;
+  padding: 5px 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+.flex-header a{
     padding-left: 15px;
     padding-right: 15px;
     color: black;
@@ -40,6 +58,14 @@ header a{
     font-size: 15px;
 }
 
+ span>a>i{
+    padding-top: 50px;
+    color: black;
+}
+
+header span>a{
+    font-size: 30px;
+}
 .flex-jt{
     display: flex;
     justify-content: center;
@@ -61,6 +87,7 @@ header a{
 
 .jt-img img{
     width: 100%;
+    /*position: relative;*/
 }
 
 .bg-jt h1{
