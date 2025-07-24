@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
     
 }
 
@@ -16,6 +16,8 @@ body {
 .container-jumbotron{
     width: 80%;
     margin: 0px auto;
+    position: relative;
+    top: 70px;
 }
 
 .header-fixed{
@@ -58,6 +60,12 @@ body {
     font-size: 15px;
 }
 
+.separatore-header{
+    width: 100%;
+    border: 1px solid rgb(216, 214, 214);
+    margin: 130px 50px 0 0;
+} 
+
  span>a>i{
     padding-top: 50px;
     color: black;
@@ -73,12 +81,12 @@ header span>a{
 
 .bg-jt{
     background-color: rgba(180,208,231,255);
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .jt-text{
     width: 30%;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .jt-img{
@@ -91,7 +99,7 @@ header span>a{
 
 .bg-jt h1{
     font-size: 60px;
-    margin: 40px 0;
+    margin: 0  0 40px 0;
 }
 
 .jt-text button{
