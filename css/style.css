@@ -10,12 +10,7 @@ body {
     
 }
 
-.button {
-  font-size: 18px;
-  padding: 12px 24px;
-  text-decoration: none;
-  width: 100%;
-}
+
 
 /* Stile header*/
 .container-jumbotron{
@@ -81,20 +76,28 @@ header a{
 
 
 /* Stile main */
-
+.button-main {
+  font-size: 18px;
+  padding: 12px 24px;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  border: none;
+  margin-top: 40px;
+}
 .container-main{
     width: 70%;
     margin: 0px auto;
 }
 
 .vertical-card{
-    height: 350px;
     display: flex;
     gap: 20px;
+    margin-top: 50px;
 }
 
 .plane-card{
-    border: solid 1px black;
+    border: solid 2px rgb(194, 190, 190);
     width: 100%;
 }
 
@@ -104,10 +107,9 @@ header a{
 }
 
 .title-card{
-    border: solid 1px black;
+    border-bottom: solid 2px rgb(194, 190, 190);
     text-align: center;
     vertical-align: middle;
-    padding: 15px 0;
 }
 
 .ul-style-none{
@@ -154,6 +156,58 @@ header a{
 
 main h1{
     font-size: 45px;
+    margin: 50px 0;
+}
+
+main i{
+    font-size: 15px;
+}
+main h3{
+    font-size: 30px;
+    margin: 40px 20px 0 0;
+}
+
+main h4{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.price{
+    font-weight: bold;
+}
+
+.span-date p{
+    color: gray;
+    margin-bottom: 50px;
+}
+
+
+main p{
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.title-card p{
+    margin: 15px 0;
+    padding: 0;
+}
+
+.separatore-main{
+    width: 20%;
+    border: 1px solid gray;
+    margin: 50px 0;
+}
+
+.buy p{
+    padding: 0; 
+    margin: 50px 0;
+}
+
+.text-card ul:nth-of-type(2) i{
+    color: blue;
+}
+
+.vertical-card li:last-of-type {
+    margin-bottom: 50px;
 }
 /* Stile footer */
 footer{
@@ -200,7 +254,7 @@ footer ul {
     padding: 10px 0;
 }
 
-.separatore{
+.separatore-footer{
     width: 10%;
     border: 1px solid gray;
     margin-top: 100px;
