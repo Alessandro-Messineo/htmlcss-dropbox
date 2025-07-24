@@ -87,7 +87,6 @@ header span>a{
 
 .jt-img img{
     width: 100%;
-    /*position: relative;*/
 }
 
 .bg-jt h1{
@@ -160,8 +159,12 @@ header span>a{
     vertical-align: middle;
 }
 
-.ul-style-none{
-    list-style-type: none;
+.fa-ul p{
+    padding-top: 0;
+}
+
+ul.fa-ul .fa-li {
+  text-align: start;
 }
 
 .main-banner{
@@ -237,7 +240,7 @@ main h4{
 
 
 main p{
-    font-size: 20px;
+    font-size: 18px;
     padding: 15px 0;
 }
 
